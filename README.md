@@ -4,11 +4,13 @@ Project exercise code with completed TODOs
 
 Completed code for Udacity Grow with Google Android Dev challenge course. This repo contains code for all Toys and Sunshine exercises completed.
 
+---------------
+
 List of all exercise lessons:
 
 
-Toys Exercises:
----------------
+##Toys Exercises:
+
 * Lesson01-Favorite-Toys 
 * Lesson02-GitHub-Repo-Search
 * Lesson03-Green-Recycler-View
@@ -24,8 +26,8 @@ Toys Exercises:
 * Lesson11-Completeing-The-UI
 * Lesson12-Visual-Polish
 
-Sunshine Exercises:
--------------------
+##Sunshine Exercises:
+
 * S01.01-Exercise-CreateLayout
 * S01.02-Exercise-AddWeatherList
 * S02.01-Exercise-Networking
