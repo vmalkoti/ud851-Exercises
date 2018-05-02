@@ -9,20 +9,20 @@ List of all exercise lessons:
 
 Toys Exercises:
 ---------------
-Lesson01-Favorite-Toys 
-Lesson02-GitHub-Repo-Search
-Lesson03-Green-Recycler-View
-Lesson04a-Starting-New-Activities
-Lesson04b-Webpages-Maps-and-Sharing
-Lesson05a-Android-Lifecycle
-Lesson05b-Smarter-GitHub-Repo-Search
-Lesson06-Visualizer-Preferences
-Lesson07-Waitlist
-Lesson08-Quiz-Example
-Lesson09-ToDo-List
-Lesson10-Hydration-Reminder
-Lesson11-Completeing-The-UI
-Lesson12-Visual-Polish
+* Lesson01-Favorite-Toys 
+* Lesson02-GitHub-Repo-Search
+* Lesson03-Green-Recycler-View
+* Lesson04a-Starting-New-Activities
+* Lesson04b-Webpages-Maps-and-Sharing
+* Lesson05a-Android-Lifecycle
+* Lesson05b-Smarter-GitHub-Repo-Search
+* Lesson06-Visualizer-Preferences
+* Lesson07-Waitlist
+* Lesson08-Quiz-Example
+* Lesson09-ToDo-List
+* Lesson10-Hydration-Reminder
+* Lesson11-Completeing-The-UI
+* Lesson12-Visual-Polish
 
 Sunshine Exercises:
 -------------------
