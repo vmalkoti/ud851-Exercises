@@ -9,7 +9,7 @@ List of all exercise lessons:
 
 Toys Exercises:
 ---------------
-Lesson01-Favorite-Toys
+Lesson01-Favorite-Toys 
 Lesson02-GitHub-Repo-Search
 Lesson03-Green-Recycler-View
 Lesson04a-Starting-New-Activities
