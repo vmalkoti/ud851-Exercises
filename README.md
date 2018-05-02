@@ -8,9 +8,7 @@ Completed code for Udacity Grow with Google Android Dev challenge course. This r
 
 List of all exercise lessons:
 
-
-##Toys Exercises:
-
+**Toys Exercises:**
 * Lesson01-Favorite-Toys 
 * Lesson02-GitHub-Repo-Search
 * Lesson03-Green-Recycler-View
@@ -26,8 +24,7 @@ List of all exercise lessons:
 * Lesson11-Completeing-The-UI
 * Lesson12-Visual-Polish
 
-##Sunshine Exercises:
-
+**Sunshine Exercises:**
 * S01.01-Exercise-CreateLayout
 * S01.02-Exercise-AddWeatherList
 * S02.01-Exercise-Networking
