@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- DONE (28) Create a layout called extra_weather_details.xml -->
+<!-- DONE (29) Surround the entire layout with <layout/> tags for data binding -->
+<!-- DONE (30) Using ConstraintLayout, create the extra weather details layout -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/humidity_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/humidity_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pressure_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/pressure_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            app:layout_constraintStart_toStartOf="@+id/humidity_label"
+            app:layout_constraintTop_toBottomOf="@+id/humidity_label" />
+
+        <TextView
+            android:id="@+id/wind_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/wind_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            app:layout_constraintStart_toStartOf="@+id/pressure_label"
+            app:layout_constraintTop_toBottomOf="@+id/pressure_label" />
+
+        <TextView
+            android:id="@+id/detail_humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            app:layout_constraintStart_toEndOf="@+id/humidity_label"
+            app:layout_constraintTop_toTopOf="@+id/humidity_label"
+            tools:text="78%" />
+
+        <TextView
+            android:id="@+id/detail_pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            app:layout_constraintStart_toStartOf="@+id/detail_humidity"
+            app:layout_constraintTop_toTopOf="@+id/pressure_label"
+            tools:text="998 hPa" />
+
+        <TextView
+            android:id="@+id/detail_wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            app:layout_constraintStart_toStartOf="@+id/detail_pressure"
+            app:layout_constraintTop_toTopOf="@+id/wind_label"
+            tools:text="3 km/h SW" />
+    </android.support.constraint.ConstraintLayout>
+</layout>
